@@ -1,0 +1,27 @@
+{
+    "name": "studio.pyram3d",
+    "version": "0.0.1",
+    "description": "Pyram3d Studio is an app focused on teaching basic geometry, specifically for pyramids and triangles.",
+    "main": "index.js",
+    "repository": "git@github.com:SvenjaReissaus/studio.pyram3d.git",
+    "author": "SvenjaReissaus",
+    "license": "MIT",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "next": "11.0.0",
+        "react": "17.0.2",
+        "react-dom": "17.0.2"
+    },
+    "devDependencies": {
+        "@types/react": "17.0.11",
+        "eslint": "7.28.0",
+        "eslint-config-next": "11.0.0",
+        "typescript": "4.3.2"
+    }
+}
