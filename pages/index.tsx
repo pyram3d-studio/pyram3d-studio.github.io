@@ -10,7 +10,7 @@ export default function Index() {
                 <link key="icon" rel="shortcut icon" href="/favicon.ico" />
             </Head>
 
-            <header>
+            <header className={styles.header}>
                 <h1 className={styles.title}>
                     &#60;Pyram3d <span>Studio</span>/&#62;
                 </h1>
@@ -18,6 +18,9 @@ export default function Index() {
                 <p className={styles.description}>
                     Descubre conceptos básicos de geometría con nuestra aplicación móvil.
                 </p>
+                <a href="https://install.appcenter.ms/orgs/pyram3d/apps/pyram3d/distribution_groups/beta%20testers" className={styles.downloadLink}>
+                    Descargar
+                </a>
             </header>
         </div>
     )
