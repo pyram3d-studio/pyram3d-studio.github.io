@@ -1,4 +1,4 @@
-import styles from './../styles/index.module.css';
+import styles from './../styles/keops.module.css';
 import Head from 'next/head';
 
 export default function Keops() {
@@ -9,7 +9,7 @@ export default function Keops() {
                 <meta key="description" name="description" content="Pyram3d Studio is an app focused on teaching basic geometry, specifically for pyramids and triangles." />
                 <link key="icon" rel="shortcut icon" href="/favicon.ico" />
             </Head>
-            <header>
+            <header className={styles.header}>
                 <h1 className={styles.title}>
                     &#60;Pirámide de <span>Keops</span>/&#62;
                 </h1>
